@@ -1,0 +1,27 @@
+#Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+#Built files
+build/
+dist/
+
+#Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+
+#macOS
+.DS_Store
+
+#Logs
+log.txt
+
+#Editor-specific files
+.vscode/
+.idea/
+
+#Compiled binary addons (Node.js addons)
+build/Release
