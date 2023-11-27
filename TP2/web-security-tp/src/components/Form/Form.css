@@ -1,0 +1,131 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(39, 39, 75);
+}
+
+.card {
+  width: 25em;
+  padding: 1em;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.input-container {
+  overflow: hidden;
+}
+
+.input-group {
+  display: flex;
+  align-items: stretch;
+}
+
+.input {
+  width: 20em;
+  font-size: 1em;
+  padding: 0.15em;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+label {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+  color: #c3c3c3;
+}
+
+.progress-bar {
+  position: relative;
+  width: 100%;
+  height: 0.25rem;
+  background-color: #fbfbfb;
+  border-radius: 0 0 0.2rem 0.2rem;
+}
+
+.progress {
+  width: 0%;
+  height: 0.25rem;
+  position: absolute;
+  border-radius: 0 0 0.2rem 0.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-btn {
+  text-decoration: none;
+  color: #c3c3c3;
+  background: none;
+  border: none;
+}
+
+.toggle-btn:hover {
+  cursor: pointer;
+}
+
+.message {
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-top: 0.8rem;
+  color: #ff6837;
+}
+
+.submit-btn {
+  width: 10em;
+  padding: 0.5em;
+  margin-top: 1em;
+  border-radius: 0.2rem;
+  background-color: #ff6837;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.submit-btn:hover {
+  background-color: #ca552f;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #aaaaaa;
+}
+
+button:disabled:hover {
+  background-color: #aaaaaa;
+}
+
+.notification {
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+.success {
+  background: #d4edda;
+  color: #33a04c;
+  border: 1px solid #c3e6cb;
+  border-radius: 0.25rem;
+}
+
+.error {
+  background: #f8d7da;
+  color: #c54d4d;
+  border: 1px solid #f5c6cb;
+  border-radius: 0.25rem;
+}
