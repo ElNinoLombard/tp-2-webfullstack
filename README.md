@@ -1,56 +1,24 @@
-# Gestion de session dans une application React
+# Gestion des Mots de Passe - Projet de Sécurité Web
 
-Ce projet démontre l'implémentation de mécanismes de session et de cookies sécurisés dans une application React pour gérer les sessions utilisateur.
+## Objectif
 
-## Aperçu
+Implémenter des pratiques sécurisées de gestion des mots de passe dans un formulaire d'inscription.
 
-L'objectif de ce projet est de présenter comment la gestion de session peut être réalisée dans une application frontend utilisant React. Il inclut des fonctionnalités telles que :
+## Contenu de la Partie 1
 
-- Stockage des données de session en utilisant `localStorage`.
-- Définition et suppression de cookies sécurisés HttpOnly en utilisant `js-cookie`.
-- Simulation de tentative de détournement de session pour démontrer les mesures de sécurité.
+### Tâches
 
-## Fonctionnalités
+- Création d'un formulaire d'inscription exigeant des critères de mots de passe robustes.
+- Utilisation d'une fonction de hachage (comme bcrypt) pour stocker les mots de passe de manière sécurisée.
+- Implémentation d'une vérification de la force des mots de passe au moment de l'inscription.
 
-- **Gestion de session :** Utilisation de `localStorage` pour stocker et récupérer les données de session.
-- **Sécurité des cookies :** Configuration de cookies sécurisés HttpOnly pour gérer les sessions utilisateur.
-- **Simulation :** Simule une tentative de détournement de session à des fins de test.
+## Instructions d'exécution
 
-## Utilisation
+Pour lancer cette partie du projet :
 
-1. **Installation :** Clonez le dépôt et installez les dépendances en utilisant `npm install`.
-
-2. **Lancer l'application :** Démarrez l'application React en exécutant `npm start`.
-
-3. **Tester les sessions et les cookies :**
-   - Accédez à la page de test pour interagir avec les fonctionnalités de session.
-   - Cliquez sur "Login" pour simuler une connexion utilisateur et définir des données de session.
-   - Cliquez sur "Logout" pour effacer les données de session.
-   - Utilisez "Simuler un détournement" pour tester l'accès non autorisé aux données de session.
-
-## Structure des fichiers
-
-cookies-session/
-├── src/
-│ ├── components/
-│ │ ├── SessionTestPage.js
-│ │ └── ... (autres composants)
-│ ├── utils/
-│ │ └── SessionManager.js
-│ ├── App.js
-│ └── index.js
-└── package.json
-
-
-## Dépendances
-
-- `React` : Bibliothèque frontend pour la création d'interfaces utilisateur.
-- `js-cookie` : Bibliothèque pour la manipulation de cookies navigateur en JavaScript.
-
-## Remarques
-
-Ce projet se concentre sur l'implémentation frontend. Une évaluation de sécurité complète pourrait nécessiter des tests backend pour une évaluation complète de la sécurité des sessions.
-
+1. Cloner le dépôt du projet.
+2. Installer les dépendances nécessaires.
+3. Exécuter l'application.
+4. Tester l'enregistrement avec différents types de mots de passe pour évaluer la sécurité.
 
 Pour toute question ou clarification supplémentaire, veuillez me contacter à [maxime.lombard@live.com.mx].
-
