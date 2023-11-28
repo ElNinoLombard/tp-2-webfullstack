@@ -20,3 +20,6 @@ Pour lancer cette partie du projet :
 2. Installer les dépendances nécessaires.
 3. Exécuter l'application.
 4. Tester l'enregistrement avec différents types de mots de passe pour évaluer la sécurité.
+
+Pour toute question ou clarification supplémentaire, veuillez me contacter à [maxime.lombard@live.com.mx].
+
